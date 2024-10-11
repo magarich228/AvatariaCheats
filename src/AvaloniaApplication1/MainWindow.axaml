@@ -1,0 +1,6 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AvaloniaApplication1.MainWindow"
+        Title="Point Drawing App" Width="400" Height="400"> 
+    <Canvas x:Name="Canvas" Background="White"/>
+</Window>
