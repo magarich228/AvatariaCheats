@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDD8298C-0EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvatariaCheats.CLI", "src\AvatariaCheats.CLI\AvatariaCheats.CLI.csproj", "{CB076499-E59D-4278-B850-F754E66944DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication1", "src\AvaloniaApplication1\AvaloniaApplication1.csproj", "{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,13 +19,8 @@ Global
 		{CB076499-E59D-4278-B850-F754E66944DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB076499-E59D-4278-B850-F754E66944DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB076499-E59D-4278-B850-F754E66944DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB076499-E59D-4278-B850-F754E66944DB} = {CDD8298C-0EA8-494E-9FA6-81F5F958DADF}
-		{889DFA4B-C9F0-4B30-B04D-0D6CB194E0EE} = {CDD8298C-0EA8-494E-9FA6-81F5F958DADF}
 	EndGlobalSection
 EndGlobal

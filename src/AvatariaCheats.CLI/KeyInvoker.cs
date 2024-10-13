@@ -18,10 +18,6 @@ public class KeyInvoker
 
 public enum Keys : byte
 {
-    // W = 0x11,
-    // S = 0x1F,
-    // A = 0x0002,
-    // D = 0x0004
     W = 0x57,
     S = 0x53,
     A = 0x41,
