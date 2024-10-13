@@ -6,7 +6,7 @@ var obs = new ColorObserver();
 
 var point1 = new Point(){ X = 751, Y = 870 };
 var point2 = new Point(){ X = 900, Y = 860 };
-var point3 = new Point(){ X = 1000, Y = 850 };
+var point3 = new Point(){ X = 1000, Y = 840 };
 var point4 = new Point(){ X = 1170, Y = 870 };
 
 var t1 = Task.Run(() =>

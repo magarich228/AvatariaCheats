@@ -27,7 +27,7 @@ public class ColorObserver()
             {
                 Color pixelColor = bitmap.GetPixel(bx, by);
 
-                if (IsArrowColor(pixelColor))
+                if (IsArrowColor(pixelColor) || IsX2BonusColor(pixelColor))
                     return true;
             }
         }
@@ -41,6 +41,16 @@ public class ColorObserver()
         var isG = color.G == 237 || (color.G < 255 && color.G > 217); 
         var isB = color.B == 233 || (color.B < 253 && color.B > 213);
 
+        return isR && isG && isB;
+    }
+
+    bool IsX2BonusColor(Color color)
+    {
+        ///183 249 200
+        var isR = color.R == 183 || (color.R < 203 && color.R > 163);
+        var isG = color.G == 249 || (color.G < 255 && color.G > 209);
+        var isB = color.B == 200 || (color.B < 200 && color.B > 160);
+        
         return isR && isG && isB;
     }
 }
