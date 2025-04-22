@@ -12,7 +12,8 @@
 
 ### Установка
 
-1. Необходимо перейти по данной **[ссылке](https://github.com/magarich228/AvatariaCheats/releases/tag/1.0.1)** и скачать минимально необходимые компоненты в виде файла конфигурации и .exe файла.
+1. Установка .NET 8.0 **[](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**.
+2. Необходимо перейти по данной **[ссылке](https://github.com/magarich228/AvatariaCheats/releases/tag/1.0.1)** и скачать минимально необходимые компоненты в виде файла конфигурации и .exe файла.
 
 ![image-20250223131601333](./demo/release.png)
 
